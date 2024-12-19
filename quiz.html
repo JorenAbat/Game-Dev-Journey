@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Joren's Game Dev Journey</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <h1>Joren's Game Dev Journey</h1>
+    </div>
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="inspirations.html">Inspirations</a>
+      <a href="tools.html">My Tools</a>
+      <a class="active" href="quiz.html"><span class="quiz-link">Quiz?</span></a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section for displaying the quiz game -->
+    <section id="quiz-container" class="text-center">
+      <h2>Simple Quiz Game</h2>
+
+      <!-- Container for the quiz question and answer buttons -->
+      <div id="question-container">
+        <!-- The question text will be displayed here -->
+        <p id="question"></p>
+
+        <!-- Answer buttons (A, B, C, D) that trigger the 'answer' function when clicked -->
+        <button class="answer-btn" onclick="answer('a')" id="answer-a" aria-label="Option A"></button>
+        <button class="answer-btn" onclick="answer('b')" id="answer-b" aria-label="Option B"></button>
+        <button class="answer-btn" onclick="answer('c')" id="answer-c" aria-label="Option C"></button>
+        <button class="answer-btn" onclick="answer('d')" id="answer-d" aria-label="Option D"></button>
+      </div>
+
+      <!-- Container for displaying the quiz result after answering -->
+      <div id="result-container" style="display: none">
+        <!-- Result text will be displayed here -->
+        <p id="result"></p>
+        <!-- Button to restart the quiz -->
+        <button class="button" onclick="restartQuiz()">Restart Quiz</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Joren's Game Dev Journey</p>
+  </footer>
+  <script src="./scripts/script.js"></script>
+</body>
+
+</html>

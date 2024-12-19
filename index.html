@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Joren's Game Dev Journey</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <h1>Joren's Game Dev Journey</h1>
+    </div>
+    <nav class="topnav" aria-label="Main Navigation">
+      <a class="active" href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="inspirations.html">Inspirations</a>
+      <a href="tools.html">My Tools</a>
+      <a href="quiz.html"><span class="quiz-link">Quiz?</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="text-center">
+      <h2>Welcome to My Game Development Journey</h2>
+      <p>
+        Hi, I'm Joren! This website is my personal space where I share my
+        experiences, projects, and experiments in game development. I'm just a
+        hobbyist who enjoys creating and exploring the world of game design.
+        Everything you'll find here is a product of my curiosity and passion
+        for learning. I hope you find my projects interesting and maybe even
+        get inspired to try game development yourself. Let's enjoy the journey
+        together!
+      </p>
+    </section>
+
+    <section class="game-dev-history">
+      <h2>My (brief) History with Game Development</h2>
+      <p>
+        Below is a condensed timeline of key milestones in my journey as a
+        game developer:
+      </p>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>Milestone</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2005</td>
+            <td>Played my first video game</td>
+            <td>
+              Some people may say their game development journey started with
+              the first time they learned how to code but I believe it starts
+              with the first game that hooked you so much that you wanted to
+              create games yourself.
+              <br><br>
+              The first game I ever played was Pokemon Sapphire for the Game
+              Boy Advance because my neighbors had the game.
+            </td>
+          </tr>
+          <tr>
+            <td>2012</td>
+            <td>Learned my first Programming Language (Java)</td>
+            <td>
+              Around this time, I was first entering high school and I wanted
+              to be a game developer. I asked my mom if I could enroll in an
+              class to learn Java since I knew that Minecraft was coded in
+              Java. <br><br>
+              I completed 2 certificates of Intro to Java
+            </td>
+          </tr>
+          <tr>
+            <td>2013-2016</td>
+            <td>Learned various game engines</td>
+            <td>
+              Throughout my time in High-School, I played around with numerous
+              game engines and tried making a bunch of small games from
+              platformers rhythm games, collectathons, etc.
+              <br>Unity, Game Maker, RPG Maker to name a few. <br><br>
+              They all were single level concepts made for me to learn how to
+              create certain mechanics in different game engines and less of a
+              full fledged game.
+            </td>
+          </tr>
+          <tr>
+            <td>2019</td>
+            <td>First Completed Game with a team</td>
+            <td>
+              In University, I took a course on game development and with a
+              team of 4, I made a platformer game using the game engine
+              Construct-2. I was responsbile for the coding aspect of the game
+              while my peers worked on the music, the art and other aspects.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Section for displaying a fun fact with toggle visibility feature -->
+    <section class="text-center">
+      <h2>Fun Fact</h2>
+      <!-- Fun fact content hidden by default -->
+      <p id="funFact" style="visibility: hidden">
+        My Favourite game series are Pokemon, Mario and Sonic. This led me to
+        learn how to make RPG, Collect-a-thon and Platformer games which lines
+        up with each game series.
+      </p>
+      <!-- Button to toggle visibility of the fun fact paragraph -->
+      <button id="toggleVisibility" aria-label="Toggle visibility of fun fact">
+        Toggle Fun Fact
+      </button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Joren's Game Dev Journey</p>
+  </footer>
+  <script src="./scripts/script.js"></script>
+</body>
+
+</html>

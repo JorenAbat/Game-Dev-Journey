@@ -1,0 +1,155 @@
+/* General styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  font-size: 16px;
+}
+
+/* Header, Footer, and Navigation */
+
+header,
+footer {
+  background-color: #444;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.topnav {
+  background-color: #444;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1rem 1rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: inline-block;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.quiz-link {
+  color: rgb(249, 73, 73);
+  font-weight: bold;
+}
+
+main {
+  padding: 1.25rem;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+/* Common Reusable Styling */
+
+.text-center {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card h3,
+b {
+  color: #444;
+  font-weight: bold;
+}
+
+.card p {
+  color: #666;
+}
+
+.card img {
+  width: 50%;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #e55a4d;
+}
+
+/* Table Styling */
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f0f0f0;
+}
+
+/* Additional styling for the quiz */
+#quiz-container {
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.answer-btn {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #04aa6d;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.answer-btn:hover {
+  background-color: #028a56;
+}
+
+#result-container {
+  margin-top: 20px;
+}
